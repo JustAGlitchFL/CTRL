@@ -1,6 +1,6 @@
 ---
 title: "CTRL"
-author: "Your name (name or slack username)"
+author: "rowyn"
 description: "A split semi-compact keyboard with extra features"
 created_at: "2024-05-22"
 ---

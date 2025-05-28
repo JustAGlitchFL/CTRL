@@ -38,4 +38,15 @@ Tonight (5/27/25) I was able to finish the routing of my PCB. This was much easi
 ![rev2](/images/rev2.png)
 
 # The Case
-For the case design, I am using stacked 1/16 polycarbonate, painted on one side to diffuse LEDs. This allows me to have a rigid frame while still keeping a low profile to the desk. To achieve this, I exported my ________ layer from KiCad into Onshape, along with Edge.Cuts. I created a plate from these files, with cutouts for every switch placed. I drew a border 5mm outside of Edge.cuts, to create an extension of polycarbonate beyond the board edge.
+For the case design, I am using stacked 1/16 polycarbonate, painted on one side to diffuse LEDs. This allows me to have a rigid frame while still keeping a low profile to the desk. To achieve this, I exported my ________ layer (yeah that one didn't work) from KiCad into Onshape, along with Edge.Cuts. I created a plate from these files, with cutouts for every switch placed. I drew a border 5mm outside of Edge.cuts, to create an extension of polycarbonate beyond the board edge.
+
+# Daily entries after I actually read the highway docs that got published and realized my journal was not to spec
+
+## Night of May 27th-28th: Modeling the case; production challenges
+Approx. 6 hours
+
+It turns out that just exporting the layout from KiCad was not going to work. I attempted to use a layer with all the cutouts I would need for the plate (in User.1), but KiCad, being a solidly *eh* piece of software, draws its circles for dxf as many small steps, rather than a vector. This ran over the Onshape limit of 8000 entities per import, stopping that plan. I spent hours back and forth between KiCad, Onshape, and FreeCAD trying to translate the layout of my PCB into a usable plate. I eventually realized that the center plastic pin on MX switches is concentric with their square profile, so I could just draw a 14mm square from this center. However, this process would take a very long time, and after importing the files to Onshape I put this on hold to get production quotes. 
+
+![CTRLrender](/images/ctrlrender.png)
+
+This led to even more challenges, as I had made the mistake of designing both halves of my board in the same KiCad file. This meant that uploding them to a production service would result in one giant plank that was not cut to shape in any way. I researched how to split these, trying to use plugins to export gerbers for each half. After attempting to do this, I finally realized I could just make copies of the base project, and delete the opposite half in each copy. After doing this, I was able to upload my gerbers to both JLC and PCBWay to get quotes. JLC was US$123 shipped, and PCBWay was nearly twice as expensive, which was a bit of a shock. If I can't get the $350 grant I don't think I can afford to build this. 

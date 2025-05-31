@@ -1,0 +1,148 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RS45111A900F"
+   (description "Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole")
+   (family "ANA")
+   (package "RS45111A900F")
+   (attribute "Datasheet Link" "https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1")
+   (attribute "Geometry.Height" "17.5mm")
+   (attribute "Manufacturer_Name" "ALPS Electric")
+   (attribute "Manufacturer_Part_Number" "RS45111A900F")
+   (attribute "Mouser Part Number" "688-RS45111A900F")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "RS45111A900F")
+    (pin "CCW" 1 PS)
+    (pin "WIPER" 2 PS)
+    (pin "CW" 3 PS)
+    (pin "MH1" 4 PS)
+    (pin "MH2" 5 PS)
+   )
+  )
+  (symbol "RS45111A900F"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RS45111A900F"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5 5.875)
+      (pt 55 5.875)
+      (pt 55 -2.125)
+      (pt -5 -2.125)
+      (pt -5 5.875))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -5 5.875)
+      (pt 55 5.875)
+      (pt 55 -2.125)
+      (pt -5 -2.125)
+      (pt -5 5.875))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6 6.875)
+      (pt 56 6.875)
+      (pt 56 -3.125)
+      (pt -6 -3.125)
+      (pt -6 6.875))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.6 0)
+      (arc (pt -5.600 0.000) (pt -5.600 -0.050) (pt -5.500 0.050) (start 180.0) (sweep -180.0))
+      (pt -5.5 0)
+      (arc (pt -5.500 0.000) (pt -5.600 -0.050) (pt -5.500 0.050) (start 180.0) (sweep .0))
+      (pt -5.6 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 0.000 3.750) (padstack 0))
+   (leg 3 (pt 50.000 0.000) (padstack 0))
+   (leg 4 (pt 7.500 1.875) (padstack 4))
+   (leg 5 (pt 40.000 1.875) (padstack 5))
+   (padstack 0
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (padstack 1
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (square 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (square 2.250))
+   )
+   (padstack 4
+    (hole 2)
+    (plated true)
+    (pad (layer TCOP) (round 3.000))
+    (pad (layer INNER) (round 3.000))
+    (pad (layer BCOP) (round 3.000))
+   )
+   (padstack 5
+    (hole 2)
+    (plated true)
+    (pad (layer TCOP) (round 3.000))
+    (pad (layer INNER) (round 3.000))
+    (pad (layer BCOP) (round 3.000))
+   )
+   (model "RS45111A900F.stp"
+    (euler 0 0 0)
+    (offset 25 1.8799999952316284 0)
+   )
+  )
+ )
+)

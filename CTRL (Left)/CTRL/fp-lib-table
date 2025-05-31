@@ -1,0 +1,12 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "7way")(type "KiCad")(uri "C:/Users/aidan/Documents/KiCad/HackBoard/RKJXT1F42001/KiCad")(options "")(descr ""))
+  (lib (name "keyswitches.pretty-master")(type "KiCad")(uri "C:/Users/aidan/Documents/KiCad/HackBoard/keyswitches.pretty-master/keyswitches.pretty-master")(options "")(descr ""))
+  (lib (name "Stick")(type "KiCad")(uri "C:/Users/aidan/Documents/KiCad/HackBoard/LIB_RKJXV122400R/RKJXV122400R/KiCad")(options "")(descr ""))
+  (lib (name "Slide")(type "KiCad")(uri "C:/Users/aidan/Documents/KiCad/HackBoard/RS45111A900F/KiCad")(options "")(descr ""))
+  (lib (name "cheyao macropad main PCB-third_party_neopixel.petty")(type "KiCad")(uri "C:/Users/aidan/Documents/KiCad/HackBoard/cheyao macropad main PCB-third_party_neopixel.petty")(options "")(descr ""))
+  (lib (name "mcp3008")(type "KiCad")(uri "C:/Users/aidan/Documents/KiCad/HackBoard/LIB_MCP3008-I_SL/MCP3008-I_SL/KiCad")(options "")(descr ""))
+  (lib (name "ScottoKeebs_Hotswap")(type "KiCad")(uri "C:/Users/aidan/Documents/KiCad/HackBoard/footprints/footprints/ScottoKeebs_Hotswap.pretty")(options "")(descr ""))
+  (lib (name "ScottoKeebs_MX")(type "KiCad")(uri "C:/Users/aidan/Documents/KiCad/HackBoard/footprints/footprints/ScottoKeebs_MX.pretty")(options "")(descr ""))
+  (lib (name "ScottoKeebs_Stabilizer")(type "KiCad")(uri "C:/Users/aidan/Documents/KiCad/HackBoard/footprints/footprints/ScottoKeebs_Stabilizer.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RS45111A900F'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ALPS Electric", "RS45111A900F" (!) = "", "RS45111A900F", "Other", "688-RS45111A900F", "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D", "", "", "Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole", "https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1", "17.5 mm"
+END_PART
+
+END.

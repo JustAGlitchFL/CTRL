@@ -1,0 +1,18 @@
+.MCP3008-I_SL :1 ;10-bit ADC, 8-channel, SPI Microchip MCP3008-I/SL, 10 bit Serial ADC, Differential Input, 16-Pin SOIC
+SOIC127P600X175-16N
+*STM IC
+*NGS
+*PLB 1="CH0" 2="CH1" 3="CH2" 4="CH3" 5="CH4" 6="CH5" 7="CH6" 8="CH7" 9="DGND" 10="'CS'/SHDN" 11="DIN" 12="DOUT" 13="CLK" 14="AGND" 15="VREF" 16="VDD"
+*MXP 16
+*DFN MCP3008-I_SL
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP3008-I/SL)
+~!Mouser Part Number (579-MCP3008-I/SL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP3008-I-SL?qs=BYQkrObauiuZK6Atf%2FfReA%3D%3D)
+~!Arrow Part Number (MCP3008-I/SL)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mcp3008-isl/microchip-technology?utm_currency=USD&region=nac)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA17/1031059.pdf)
+~!Height (1.75mm)
+~!3D_Model (MCP3008-I_SL)
+MCP3008-I_SL
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

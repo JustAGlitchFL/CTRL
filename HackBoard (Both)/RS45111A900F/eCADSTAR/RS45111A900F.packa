@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RS45111A900F"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-09-09-08:36:45)
+    (mountForm default
+        (footprintRef "RS45111A900F")
+        (spec "System")
+    )
+)

@@ -1,0 +1,18 @@
+.RS45111A900F :1 ;Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole
+RS45111A900F
+*STM VR
+*NGS
+*PLB 1="CCW" 2="WIPER" 3="CW" 4="MH1" 5="MH2"
+*MXP 5
+*DFN RS45111A900F
+~!Manufacturer_Name (ALPS Electric)
+~!Manufacturer_Part_Number (RS45111A900F)
+~!Mouser Part Number (688-RS45111A900F)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1)
+~!Height (17.5mm)
+~!3D_Model (RS45111A900F)
+RS45111A900F
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

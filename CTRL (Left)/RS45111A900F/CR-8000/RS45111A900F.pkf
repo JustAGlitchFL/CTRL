@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RS45111A900F"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RS45111A900F")
+        (spec "default")
+    )
+)

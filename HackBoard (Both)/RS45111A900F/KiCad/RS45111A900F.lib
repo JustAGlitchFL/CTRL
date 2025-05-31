@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RS45111A900F
+#/2388519/1623493/2.50/5/3/Variable Resistor
+DEF RS45111A900F VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "RS45111A900F" 950 200 50 H V L CNN
+F2 "RS45111A900F" 950 100 50 H I L CNN
+F3 "https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1" 950 0 50 H I L CNN
+F4 "Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole" 950 -100 50 H I L CNN "Description"
+F5 "17.5" 950 -200 50 H I L CNN "Height"
+F6 "ALPS Electric" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "RS45111A900F" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "688-RS45111A900F" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 0 -100 200 R 50 50 0 0 P
+X CW 3 0 -200 200 R 50 50 0 0 P
+X MH1 4 1100 0 200 L 50 50 0 0 P
+X MH2 5 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

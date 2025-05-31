@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RKJXT1F42001")(type "KiCad")(uri "C:/Users/aidan/Documents/KiCad/HackBoard/RKJXT1F42001/KiCad/RKJXT1F42001.kicad_sym")(options "")(descr ""))
+  (lib (name "Stick")(type "KiCad")(uri "C:/Users/aidan/Documents/KiCad/HackBoard/LIB_RKJXV122400R/RKJXV122400R/KiCad/RKJXV122400R.kicad_sym")(options "")(descr ""))
+  (lib (name "RS45111A900F")(type "KiCad")(uri "C:/Users/aidan/Documents/KiCad/HackBoard/RS45111A900F/KiCad/RS45111A900F.kicad_sym")(options "")(descr ""))
+)
